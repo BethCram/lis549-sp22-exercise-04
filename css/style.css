@@ -3,9 +3,11 @@ body {
 font-family: 'Nunito Sans', Arial, sans-serif;
 font-size: 16px;
 }
-
+/* Headings */
 h1, h2  {
     font-family: 'Raleway', Helvetica,sans-serif;
+    margin-top: 0;
+    margin-bottom: .5rem;
 }
 
 h1 {
@@ -14,4 +16,20 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+}
+
+/* material icon relative position */
+
+.material-icons {
+    position: relative;
+    top: 5px; 
+}
+
+/* container max width */
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem; /*root element font is 16px by default)*/
 }
