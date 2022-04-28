@@ -33,3 +33,15 @@ h2 {
     margin-right: auto;
     padding: 1rem; /*root element font is 16px by default)*/
 }
+
+/* paragraphs and descriptive lists */
+p, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Nav Bar */
+nav {
+    position: fixed;
+    width: 100%;
+}
