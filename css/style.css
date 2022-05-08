@@ -67,7 +67,7 @@ dl {
     margin-bottom: 1rem;
 }
 
-/* Nav Bar */
+/* Nav Bar rules */
 nav {
     position: fixed;
     top: 0rem;
@@ -98,7 +98,7 @@ nav li a {
     text-decoration: none;
 }
 
-/* nav bar visited link */
+/* nav bar visited link -just a fun addition */
 nav li a:visited {
     color: hotpink;
 }
@@ -133,27 +133,31 @@ body main dl dd {
     margin: 0;
 }
 
-/* round img edges */
+/* round img edges in menu */
 #menu img {
     height: 200px;
     border-radius: 15px;
 }
 
+/* different background color & line height for about section */
 #about {
     background-color: #e0e0e0;
     line-height: 1.5;
 }
 
+/* footer section rules */
 body footer {
     background-color: #3e1305;
     margin: 0;
     line-height: 1.25em;
 }
 
+/* footer - rule for last p */
 body footer p:last-of-type {
     padding-top: 8px;
 }
 
+/* footer link color, no underline */
 body footer a {
     text-decoration: none;
     color: white;
