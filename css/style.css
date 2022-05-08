@@ -15,15 +15,14 @@ h1, h2  {
 
 h1 {
     font-size: 3.5rem;
-    color: white;
-    
-}
+        }
 
 h2 {
     font-size: 2.5rem;
 }
 
 header {
+    color: white;
     padding-top: 6rem;
     background-image: url('../img/paul-gilmore-145802-unsplash.jpg');
     background-position: center;
@@ -102,4 +101,21 @@ nav li {
   /* selected link */
  nav li a:active {
     color: #f0f0f0;
+  }
+
+  main {
+      background-color: #f0f0f0;
+      border-radius: 15px;
+        }
+  body main dl dt{
+    font-size: 125%;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  body main dl dd {
+      margin:0;
+  }
+  #menu img{
+      height: 200px;
+      border-radius: 15px;
   }
