@@ -115,7 +115,29 @@ nav li {
   body main dl dd {
       margin:0;
   }
-  #menu img{
+
+  #menu img {
       height: 200px;
       border-radius: 15px;
   }
+
+  #about {
+      background-color: #e0e0e0;
+      line-height: 1.5;
+  }
+
+  body footer {
+    color:white;
+    background-color: #3e1305;
+    margin:0;
+    line-height: 1.25em;
+  }
+  
+  body footer p:last-of-type {
+      padding-top: 8px;
+  }
+
+  body footer a {
+    text-decoration:none;
+    color: white;
+}    
