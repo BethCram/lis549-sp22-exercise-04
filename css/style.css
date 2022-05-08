@@ -15,6 +15,7 @@ h2 {
     padding-bottom: 1rem;
 }
 
+/* Headings 1 & 2 font sizes */
 h1 {
     font-size: 3.5rem;
 }
@@ -23,6 +24,7 @@ h2 {
     font-size: 2.5rem;
 }
 
+/* Header options */
 header {
     color: white;
     padding-top: 6rem;
@@ -33,6 +35,7 @@ header {
 
 }
 
+/* Caffeinating sleepy Huskies since 2018 to italics */
 .motto {
     font-style: italic;
     color: white;
@@ -81,6 +84,7 @@ nav ul {
     margin: 0;
 }
 
+/* nav li */
 nav li {
     display: inline;
     margin: 0px 1rem;
@@ -112,21 +116,24 @@ nav li a:active {
     color: #f0f0f0;
 }
 
+/* main element background color  */
 main {
     background-color: #f0f0f0;
-    border-radius: 15px;
 }
 
+/* Top photo menu item names (Espresso, Latte etc */
 body main dl dt {
     font-size: 125%;
     font-weight: bold;
     margin-top: 1rem;
 }
 
+/* No margin for photo captions */
 body main dl dd {
     margin: 0;
 }
 
+/* round img edges */
 #menu img {
     height: 200px;
     border-radius: 15px;
@@ -138,7 +145,6 @@ body main dl dd {
 }
 
 body footer {
-    color: white;
     background-color: #3e1305;
     margin: 0;
     line-height: 1.25em;
